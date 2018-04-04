@@ -1,0 +1,79 @@
+/*defaule style*/
+*{
+	margin:0;
+
+	padding:0
+}
+body{width:100%;}
+/*background images section*/
+.background{
+    background-image: url("../images/welcome.jpg");
+    height: 900px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+.background h2{
+
+	font-size: 65px;
+    padding-top: 280px;
+    text-align: center;
+    color: bisque;
+    letter-spacing: 2px
+
+}
+
+.background h4{
+	text-align: center;
+font-size: 50px;
+letter-spacing: 2px;
+padding-top: 100px;
+color: yellowgreen;
+}
+
+
+.footer{
+
+	height:78px;
+    width:100%;
+    background-color:#ddd;
+}
+.footer p{
+   padding-top: 31px;
+   text-align:center;
+   color:#212121;
+   font-weight:600;
+   letter-spacing:2px;
+
+}
+
+#buttonholder{
+     text-align: center;
+     margin-top: 66px;
+
+}
+#startbutton{
+     height: 51px;
+     text-align: center;
+     width: 146px;
+     letter-spacing: 2px;
+     font-size: larger;
+}
+
+
+#Progress {
+	display:none;
+    width: 100%;
+    background-color: grey;
+    margin-top: 130px;
+}
+#Bar {
+    width: 10%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center; /* To center it horizontally (if you want) */
+    line-height: 30px; /* To center it vertically */
+    color: white; 
+}
+
